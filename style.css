@@ -1414,7 +1414,9 @@ footer{
     }
     .info__box__buttons{
         margin-top: 10px;
-        width: 290px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 250px;
         display: flex;
         justify-content: space-between;
     }
