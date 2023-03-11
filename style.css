@@ -620,7 +620,7 @@ footer{
 @media screen and (max-width: 920px) {
     
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .margin{
         height: 20px;
     }
