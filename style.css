@@ -617,10 +617,659 @@ footer{
     line-height: 17px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 992px) {
+    .margin{
+        height: 30px;
+    }
+    .section__one{
+        max-width: 992px;
+        height: 510px;
+        background-image: url(./pictures/section__one.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .section__one__lady{
+        position: absolute;
+        background: transparent;
+        height: 332px;
+        width: 418px;
+        right: 45px;
+        bottom: 5px;
+        z-index: 1;
+    }
+    header{
+        max-width: 950px;
+        margin-left: 20px;
+        height: 91px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header__logo{
+        display: flex;
+        margin-right: 45px;
+    }
+    .header__logo img{
+        height: 50px;
+    }
+    .header__logo__txtBig{
+        width: 170px;
+        padding-left: 7px;
+        font-family: 'Sofia Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #46B1DE;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        text-transform: uppercase;
+    }
+    .header__logo__txtSmall{
+        padding-left: 7px;
+        font-family: 'Sofia Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 140%;
+        color: #46B1DE;
+    }
+    nav{
+        display: flex;
+        width: 180px;
+        margin-top: 10px;
+    }
+    nav div{
+        margin-right: 40px;
+    }
+    nav div a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .header__phone{
+        width: 160px;
+        display: flex;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 30px;
+    }
+    .header__phone img{
+        margin-top: 2px;
+        margin-right: 6px;
+        height: 12px;
+        width: 12px;
+    }
+    .header__phone a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .header__lang__switch{
+        display: flex;
+        margin-top: 8px;
+        margin-right: 20px;
+        width: 40px;
+        justify-content: space-between;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .header__lang__switch a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .info__box{
+        margin-top: 4px;
+        margin-left: 20px;
+        width: auto;
+        max-width: 350px;
+    }
+    .info__box__title h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+    .info__box__title h2 span{
+        color: #46B1DE;
+    }
+    .info__box__about{
+        width: auto;
+        margin-top: 10px;
+        max-width: 350px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .info__box__buttons{
+        margin-top: 48px;
+        width: auto;
+        max-width: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .info__box__button__call{
+        width: 120px;
+        height: 45px;
+        background: linear-gradient(97.59deg, #46B1DE 9.8%, #0591CC 95.1%);
+        box-shadow: 0px 2px 10px #46B1DE;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        
+    }
+    .info__box__button__call a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .info__box__button__services{
+        width: 120px;
+        height: 45px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        border: 1px solid #DDE0DC;
+        box-shadow: 0px 2px 10px #DDE0DC;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    .info__box__button__services a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 27px;
+        color: #46B1DE;
+    }
+    .section__one__cardsBlock{
+        width: auto;
+        margin: 84px 30px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section__one__card{
+        width: 220px;
+        height: 90px;
+        background: #FFFFFF;
+        border: 1px solid #D8E1E1;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        display: flex;
+        z-index: 2;
+    }
+    .section__one__card_txtBig{
+        margin: 0 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 76px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #46B1DE;
+    }
+    .section__one__card_txtSmall{
+        margin-left: 7px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 16px;
+        color: #1B1D1F;
+        display: flex;
+        align-items: center;
+    }
+    .main__txt{
+        margin-top: 150px;
+    }
+    .main__txt h2{
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .main__txt h2 span{
+        font-weight: 600;
+        color: #46B1DE;
+    }
+    .main__txt p{
+        text-align: center;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .cards{
+        margin: 50px 20px 0;
+        max-width: 992px;
+        width: auto;
+        height: auto;
+        background: #A1C7D4;
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .cards__blockS{
+        height: 364px;
+        width: 300px;
+        margin: 16px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .cards__block{
+        width: 300px;
+        height: 176px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin: 5px;
+    }
+    .cards__blockup{
+        height: 70px;
+        display: flex;
+    }
+    .cards__num__big{
+        width: 65px;
+        height: 56px;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        display: flex;
+        align-items: center;
+        color: #46B1DE;
+    }
+    .cards__num__small{
+        margin-top: 12px;
+        height: 38px;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #46B1DE;
+        display: flex;
+        align-items: center;
+    }
+    .cards__blockdown{
+        height: 130px;
+    }
+    .cards__blockdown p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .menu__appointment_outer{
+        margin: 87px auto 0;
+        width: 300px;
+        height: 265px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        display: flex;
     
+    }
+    #create__appointment{
+        margin: 10px 9px 8px 15px;
+        width: 270px;
+        height: 247px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+    }
+    .appointment__info{
+        margin-top: 29px;
+        text-align: center;
+    }
+    .appointment__info h2{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .appointment__info p{
+        margin-top: 7px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .appointment__active{
+        display: flex;
+        margin: 15px 21px 0 18px;
+        flex-direction: column;
+    }
+    .appointment__name{
+        margin-bottom: 10px;
+        width: 190px;
+        height: 25px;
+        left: 298px;
+        top: 1592px;
+        background: rgba(217, 217, 217, 0.71);
+        border-radius: 8px;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        display: flex;
+        align-items: center;
+    }
+    .appointment__name img{
+        margin-left: 10px;
+        height: 10px;
+        width: 10px;
+    }
+    #user__name{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 27px;
+        color: rgba(27, 29, 31, 0.51);
+        border: none;
+        background-color: transparent;
+        width: 150px;
+    }
+    .appointment__phoneNum{
+        margin-bottom: 10px;
+        width: 190px;
+        height: 25px;
+        left: 600px;
+        top: 1591px;
+        background: rgba(217, 217, 217, 0.71);
+        border-radius: 8px;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        display: flex;
+        align-items: center;
+    }
+    .appointment__phoneNum img{
+        margin-left: 10px;
+        height: 10px;
+        width: 10px;
+    }
+    #user__phone{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 27px;
+        color: rgba(27, 29, 31, 0.51);
+        border: none;
+        background-color: transparent;
+        width: 150px;
+    }
+    #appointment__button__signUp{
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 35px;
+        gap: 10px;
+        width: 150px;
+        height: 35px;
+        left: 900px;
+        top: 1592px;
+        background: #46B1DE;
+        border: transparent;
+        border-radius: 8px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .block__photo{
+        margin: 90px auto 0;
+        display: flex;
+        justify-content: space-between;
+        max-width: 750px;
+    }
+    .block__photo img{
+        width: 20vw;
+    }
+    footer{
+        margin-top: 91px;
+        height: 400px;
+        background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__info{
+        margin-left: 20px;
+        margin-top: 60px;
+        max-width: 700px;
+    }
+    .footer__logo{
+        display: flex;
+    }
+    .footer__logo img{
+        height: 70px;
+    }
+    .footer__logo p{
+        margin-left: 7.5px;
+    }
+    .footer__logo__textBig{
+        font-family: 'Sofia Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 45px;
+        color: #0F2D4A;
+    }
+    .footer__logo__textSmall{
+        font-family: 'Sofia Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 10px;
+        color: #0F2D4A;
+    }
+    .footer__info__block{
+        display: flex;
+    }
+    .footer__nav{
+        margin-top: 30px;
+        margin-left: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__nav a{
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0F2D4A;
+    }
+    .footer__lang{
+        margin-top: 7px;
+        font-size: 20px;
+    }
+    .footer__lang a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+    }
+    .footer__work__hours{
+        margin-top: 82px;
+        margin-left: 120px;
+    }
+    .footer__work__hours h3{
+        margin-left: 3px;
+        margin-right: 3px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #0F2D4A;
+    }
+    .footer__work__hours p{
+        margin-top: 7px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0F2D4A;
+    }
+    .footer__contacts{
+        margin-top: 60px;
+        margin-left: 0;
+        margin-right: 60px;
+        max-width: 700px;
+    }
+    .footer__contacts h2{
+        margin-left: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        color: #FFFFFF;
+    }
+    .footer__contacts p{
+        margin-top: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .footer__phone{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    }
+    .footer__phone img{
+        margin-right: 15px;
+        height: 18px;
+        width: 18px;
+    }
+    .footer__contacts__messangers{
+        margin-top: 15px;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer__contacts__messangers img{
+        height: 25px;
+        width: 25px;
+    }
+    .footer__contacts__messangers a{
+        text-decoration: none;
+    }
+    .footer__contacts__messangers a img{
+        margin-right: 22px;
+    }
+    .footer__contacts__igNmail{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__contacts__igNmail a{
+        margin-top: 13px;
+        margin-bottom: 2px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+    .footer__contacts__igNmail a img{
+        margin-right: 13px;
+    }
+    .footer__copyright{
+        margin-top: 8px;
+        margin-left: 209px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    .footer__copyright img{
+        height: 8px;
+        width: 8px;
+    }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
     .margin{
         height: 20px;
     }
